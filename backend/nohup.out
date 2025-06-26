@@ -1,0 +1,6 @@
+🧪 DSN FINAL: host=localhost port=5432 user=danielcamacho password= dbname=royal_reserve sslmode=disable
+
+2025/06/20 11:42:17 [35m/Users/danielcamacho/reservas_Liquors/royal-reserve-licorera/backend/config/db.go:28
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=danielcamacho database=`: [::1]:5432 (localhost): server error: FATAL: database "danielcamacho" does not exist (SQLSTATE 3D000)
+2025/06/20 11:42:17 ❌ Error al conectar a la base de datos: failed to connect to `user=danielcamacho database=`: [::1]:5432 (localhost): server error: FATAL: database "danielcamacho" does not exist (SQLSTATE 3D000)
+exit status 1
